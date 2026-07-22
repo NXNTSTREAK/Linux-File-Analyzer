@@ -35,7 +35,7 @@ This project requires a Linux environment (or WSL/macOS) and a C++ compiler that
 
 To compile the source code into an executable binary, run:
 
-g++ -std=c++17 -Wall -Wextra -O2 src/main.cpp -o analyzer
+```g++ -std=c++17 -Wall -Wextra -O2 src/main.cpp -o analyzer```
 
 
 (Note: -Wall -Wextra enables strict compiler warnings, and -O2 enables standard compiler optimizations).
@@ -44,7 +44,7 @@ g++ -std=c++17 -Wall -Wextra -O2 src/main.cpp -o analyzer
 
 Provide the absolute or relative path to any file, directory, or symlink as the only argument:
 
-./analyzer /etc/passwd
+```./analyzer /etc/passwd```
 
 
 Example Output:
